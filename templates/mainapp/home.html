@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% load static %} {% block extra_css %}
+<link rel="stylesheet" href="{% static 'mainapp/home.css' %}" />
+{% endblock %} {% block content %}
+<section class="box" style="background-color: black">
+  <textarea
+    class="left"
+    id="input"
+    placeholder="text to be translated"
+  ></textarea>
+  <button class="middle" onclick="convert()">convert</button>
+  <div class="right" id="text" style="background: white"></div>
+</section>
+<script src="{% static 'mainapp/home.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% load static %} {% block extra_css %}
+<link rel="stylesheet" href="{% static 'mainapp/contact.css' %}" />
+{% endblock %} {% block content %}
+<h1>Contact Us</h1>
+<h3>Provide feedback:</h3>
+<form>
+  <label for="name">Name:</label>
+  <input id="name" type="text" /><br />
+  <label for="email">Email:</label>
+  <input id="email" type="email" /><br />
+  <label for="mobNo.">Mobile No:</label>
+  <input id="mobNo." type="number" /><br />
+  <label for="desc">Description:</label>
+  <input id="desc" type="text" /><br />
+  <input type="submit" />
+</form>
+{% endblock %}
