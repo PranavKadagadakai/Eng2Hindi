@@ -67,8 +67,8 @@ toolz==0.12.1
 torch==2.2.0.dev20231204+cu118
 torchaudio==2.2.0.dev20231204+cu118
 torchvision==0.17.0.dev20231204+cu118
-tqdm==4.66.1
-transformers==4.38.0
+tqdm==4.66.3
+transformers==4.37.1
 typing_extensions==4.9.0
 tzdata==2023.4
 urllib3==2.1.0
