@@ -64,7 +64,7 @@ sympy==1.12
 tensorstore==0.1.52
 tokenizers==0.15.1
 toolz==0.12.1
-torch==2.2.0.dev20231204+cu118
+torch==2.2.0
 torchaudio==2.2.0.dev20231204+cu118
 torchvision==0.17.0.dev20231204+cu118
 tqdm==4.66.3
